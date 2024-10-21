@@ -588,6 +588,18 @@ video {
   }
 }
 
+.order-first {
+  order: -9999;
+}
+
+.order-last {
+  order: 9999;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -715,6 +727,16 @@ video {
 .bg-pink-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.bg-purple-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
+}
+
+.bg-purple-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
 }
 
 .p-6 {
