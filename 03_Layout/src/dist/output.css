@@ -588,6 +588,18 @@ video {
   }
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-start {
+  clear: inline-start;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -708,6 +720,11 @@ video {
 .bg-teal-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(204 251 241 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .p-4 {
