@@ -554,12 +554,12 @@ video {
   display: none;
 }
 
-.h-48 {
-  height: 12rem;
-}
-
 .h-10 {
   height: 2.5rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .overflow-auto {
@@ -622,6 +622,10 @@ video {
   background-image: url('/09_background/src/img/bg_cidade.jpg');
 }
 
+.bg-background-img2 {
+  background-image: url('/09_background/src/img/tailwind.png');
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -630,15 +634,18 @@ video {
   background-attachment: local;
 }
 
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
 
 .p-20 {
   padding: 5rem;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
