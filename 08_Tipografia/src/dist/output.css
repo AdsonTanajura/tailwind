@@ -607,3 +607,15 @@ video {
 .text-12xl {
   font-size: 8rem;
 }
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
