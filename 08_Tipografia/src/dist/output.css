@@ -554,8 +554,28 @@ video {
   display: none;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
+.list-item {
+  display: list-item;
+}
+
 .w-64 {
   width: 16rem;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .bg-gray-500 {
