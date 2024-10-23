@@ -584,3 +584,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
