@@ -562,6 +562,10 @@ video {
   height: 12rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -624,6 +628,14 @@ video {
 
 .bg-background-img2 {
   background-image: url('/09_background/src/img/tailwind.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-fixed {
